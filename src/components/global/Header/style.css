@@ -1,0 +1,44 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 63px;
+}
+
+.Header img {
+  width: 211px;
+}
+
+.Header nav ul {
+  display: flex;
+  font-size: 1.33rem;
+  color: var(--kasa-red);
+}
+
+.Header nav li:first-child {
+  margin-right: 57px;
+}
+
+.Header nav a.active {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    margin-bottom: 16px;
+  }
+  
+  .Header img {
+    width: 43%;
+    max-width: 145px;
+  }
+
+  .Header nav ul {
+    text-transform: uppercase;
+    font-size: 0.67rem;
+  }
+
+  .Header nav li:first-child {
+    margin-right: 10px;
+  }
+}

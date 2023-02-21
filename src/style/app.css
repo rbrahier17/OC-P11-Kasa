@@ -1,0 +1,32 @@
+/* Global styles for the entire app */
+
+/* Import "Montserrat" font from Google CDN. Weights: 400/500/700 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+  --kasa-red: #ff6060;
+}
+
+html {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px; /* Text size to use as a standard with rem units */
+}
+
+body {
+  padding: 40px 100px 200px 100px;
+  min-height: 100vh;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 209px; /* Same as footer's height (footer is in absolute position) */
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 20px 100px 20px;
+  }
+}

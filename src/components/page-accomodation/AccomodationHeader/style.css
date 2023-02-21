@@ -1,0 +1,117 @@
+.AccomodationHeader {
+  color: var(--kasa-red);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/******************** TITLE ********************/
+.AccomodationHeader h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+}
+
+/******************** HOST ********************/
+.AccomodationHeader .host {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.AccomodationHeader .host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.AccomodationHeader .host p {
+  margin-right: 10px;
+  width: min-content;
+  text-align: right;
+}
+
+/******************** LOCATION ********************/
+.AccomodationHeader .location {
+  width: 100%;
+  transform: translateY(-2px);
+  margin-bottom: 15px;
+}
+
+/********************** TAGS **********************/
+.AccomodationHeader .tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.AccomodationHeader .tags li {
+  min-width: 115px;
+  padding: 0 15px;
+  height: 25px;
+  background: var(--kasa-red);
+  color: white;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/********************** RATING **********************/
+.AccomodationHeader .rating {
+  margin-left: auto;
+}
+
+
+/******************** RESPONSIVE ********************/
+@media (max-width: 1024px) {
+  .AccomodationHeader {
+    margin-bottom: 16.5px;
+  }
+
+  .AccomodationHeader h2 {
+    order: 1;
+    max-width: unset;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .AccomodationHeader .location {
+    order: 2;
+    font-size: 0.78rem;
+    transform: none;
+    margin-bottom: 10px;
+  }
+
+  .AccomodationHeader .tags {
+    order: 3;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .AccomodationHeader .rating {
+    order: 4;
+    margin-left: unset;
+    align-self: center;
+  }
+
+  .AccomodationHeader .rating img {
+    max-height: 15px;
+  }
+
+  .AccomodationHeader .host {
+    order: 5;
+    font-size: 0.67rem;
+  }
+
+  .AccomodationHeader .host img {
+    width: 32px;
+    height: 32px;
+  }
+}

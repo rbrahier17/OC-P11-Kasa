@@ -1,0 +1,31 @@
+.ThumbnailList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f7f7f7;
+  border-radius: 25px;
+  padding: 56px 50px;
+  gap:50px;
+}
+
+@media (max-width: 1200px) {
+  .ThumbnailList {
+    padding: 46px 40px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ThumbnailList {
+    padding: 36px 30px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ThumbnailList {
+    padding: 0 ;
+    gap: 20px;
+    background: none;
+  }
+}

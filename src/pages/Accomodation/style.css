@@ -1,0 +1,11 @@
+.Accomodation-page .collapse-container {
+  display: flex;
+  gap: 76px;
+}
+
+@media (max-width: 1024px) {
+  .Accomodation-page .collapse-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

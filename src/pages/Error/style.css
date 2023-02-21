@@ -1,0 +1,38 @@
+.Error-content {
+  color: var(--kasa-red);
+  width: 100%;
+  text-align: center;
+}
+
+.Error-content h1 {
+  font-size: 16rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Error-content p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 182px;
+}
+
+.Error-content a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .Error-content h1 {
+    font-size: 5.33rem;
+    margin-top: 130px;
+  }
+
+  .Error-content p {
+    font-size: 1rem;
+    margin-bottom: 133px;
+  }
+
+  .Error-content a {
+    font-size: 0.78rem;
+  }
+}
