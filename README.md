@@ -8,11 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 -Clone the project
 
--Install dependencies:
-#### `npm install`
+-Install dependencies: #### `npm install`
 
--Runs the app:
-#### `npm start`
+-Runs the app: #### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
