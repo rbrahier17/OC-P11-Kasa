@@ -2,12 +2,16 @@
 
 This is project n°11 of the OpenClassrooms training course "Application Developer -Javascript React".
 
-## Getting Started with Create React App
+### Start the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Start the project
+-Clone the project
 
+-Install dependencies:
+#### `npm install`
+
+-Runs the app:
 #### `npm start`
 
 Runs the app in the development mode.\
