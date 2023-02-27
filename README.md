@@ -6,10 +6,8 @@ This is project n°11 of the OpenClassrooms training course "Application Develop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
--Clone the project
-
+#### -Clone the project
 #### -Install dependencies: `npm install`
-
 #### -Runs the app: `npm run start`
 
 Runs the app in the development mode.\
