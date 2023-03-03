@@ -9,7 +9,6 @@
  */
 
 import "./style.css";
-import PropTypes from "prop-types";
 import iconStarRed from "../../../assets/images/icons/star-red.svg";
 import iconStarGrey from "../../../assets/images/icons/star-grey.svg";
 
@@ -41,12 +40,5 @@ export function AccomodationHeader({ title, host, location, tags, rating }) {
     </header>
   );
 }
-AccomodationHeader.propTypes = {
-  title: PropTypes.string.isRequired,
-  host: PropTypes.object.isRequired,
-  location: PropTypes.string.isRequired,
-  tags: PropTypes.array.isRequired,
-  rating: PropTypes.string.isRequired,
-};
 
 export default AccomodationHeader;
