@@ -5,7 +5,6 @@
  */
 
 import './style.css';
-import PropTypes from "prop-types";
 import { Link } from 'react-router-dom';
 
 function Thumbnail({ title, cover, id }) {
@@ -18,11 +17,5 @@ function Thumbnail({ title, cover, id }) {
     </Link>
   );
 }
-
-Thumbnail.propTypes = {
-  title: PropTypes.string.isRequired,
-  cover: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
-};
 
 export default Thumbnail;
