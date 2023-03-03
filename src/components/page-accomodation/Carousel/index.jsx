@@ -6,7 +6,6 @@
 
 
 import './style.css'
-import PropTypes from "prop-types";
 import { useState } from 'react';
 import iconArrow from '../../../assets/images/icons/arrow-x.svg'
 
@@ -48,10 +47,5 @@ export function Carousel({ pictures }) {
     );
   }
 }
-
-Carousel.propTypes = {
-  pictures: PropTypes.array.isRequired,
-};
-
 
 export default Carousel;
