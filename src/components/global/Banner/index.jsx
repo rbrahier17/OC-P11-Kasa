@@ -4,7 +4,6 @@
  */
 
 import './style.css';
-import PropTypes from 'prop-types';
 
 function getBannerTitle(page) {
   switch (page) {
@@ -23,9 +22,5 @@ function Banner({ page }) {
   const title = getBannerTitle(page);
   return <div className={`Banner ${page}`}>{title ? <h1>{title}</h1> : null}</div>;
 }
-
-Banner.propTypes = {
-  page: PropTypes.string.isRequired,
-};
 
 export default Banner;
