@@ -5,7 +5,6 @@
 
 import "./style.css";
 import { useState } from "react";
-import PropTypes from "prop-types";
 import iconArrow from "../../../assets/images/icons/arrow-y.svg";
 
 function Collapse({ page, title, content }) {
@@ -33,12 +32,6 @@ function Collapse({ page, title, content }) {
     </article>
   );
 }
-
-Collapse.propTypes = {
-  page: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  content: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
-};
 
 
 export default Collapse;
